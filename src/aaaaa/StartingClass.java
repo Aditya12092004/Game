@@ -130,24 +130,20 @@ public class StartingClass extends JPanel implements Runnable, KeyListener, Mous
                     
                     menu = ImageIO.read(new File("data/menu.png"));
                     logo= ImageIO.read(new File("data/logo.png"));
-                    teamlogo = ImageIO.read(new File("data/teamlogo.png"));
+
                     play= ImageIO.read(new File("data/play.png"));
                     exit= ImageIO.read(new File("data/exit.png"));
-                    creditsButton= ImageIO.read(new File("data/creditsButton.png"));
+
                     guideButton= ImageIO.read(new File("data/guideButton.png"));
                     introButton=ImageIO.read(new File("data/introButton.png"));
                     
-                    start = ImageIO.read(new File("data/intro1.png"));
+
                     
                     deathimg = ImageIO.read(new File("data/deathimg.png"));
                     menubutton = ImageIO.read(new File("data/menuButton.png"));
                     playagain = ImageIO.read(new File("data/playagainButton.png"));
                     
                     
-                    //Credits Stuff
-                    credits= ImageIO.read(new File("data/credits.png"));
-                    credits1= ImageIO.read(new File("data/credits1.png"));
-                    backButton= ImageIO.read(new File("data/backButton.png"));
                     
                     //Intro stuff
                     introback=ImageIO.read(new File("data/introback.png"));
